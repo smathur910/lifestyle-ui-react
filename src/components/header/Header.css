@@ -1,0 +1,38 @@
+.header {
+  padding-top: 5%;
+  position: relative;
+}
+.header .left-section .title-h1 h1 {
+  font-weight: 600;
+
+}
+
+
+.header .left-section .title-h1 h1 span {
+  background: #edce47;
+  padding: 0px 10px;
+}
+
+.header .left-section .morebtn button {
+  background: #edce47;
+  border: none;
+  padding: 10px 40px;
+  border-radius: inherit;
+  color: #000;
+}
+
+.header .left-section .morebtn button svg{
+  margin-left: 10px;
+}
+
+.header .homelogo {
+  top: 87%;
+  position: absolute;
+  z-index: -1;
+  padding: 0;
+}
+.header .homelogo-curve {
+    position: absolute;
+    bottom: -33%;
+    padding: 0;
+}

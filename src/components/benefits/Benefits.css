@@ -1,0 +1,54 @@
+.benefits {
+  position: relative;
+  padding-top: 10%;
+}
+.contant-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.benefits .linever {
+  border-left: 1px solid #000;
+  height: 40px;
+}
+.benefits .row{
+  background: #fff;
+
+}
+
+.benefits .contant-section {
+  background: #fff;
+}
+.benefits .contant-section h1 {
+  font-size: 32px;
+  position: relative;
+  z-index: 111111;
+}
+
+.benefits .contant-section h1:before {
+  content: "01";
+  position: absolute;
+  top: 0;
+  left: 30%;
+  color: #eff0ee;
+  font-size: 100px;
+  font-weight: bold;
+  z-index: -111111111111;
+}
+.benefits .card-group{
+  padding: 0px 100px;
+}
+.benefits .card{
+  border: none;
+}
+.benefits .card-img-top {
+  width: 80px;
+}
+.benefits .card-title {
+  font-size: 18px;
+}
+.benefits .card-text {
+  font-size: 14px;
+}
+

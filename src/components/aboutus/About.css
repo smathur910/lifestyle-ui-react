@@ -1,0 +1,73 @@
+.aboutus {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: #fff;
+  overflow-x: hidden;
+}
+.aboutus .contant-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus .linever {
+  border-left: 1px solid #000;
+  height: 40px;
+}
+.aboutus .row {
+  background: #fff;
+}
+.aboutus .contant-section h1 {
+  font-size: 32px;
+  position: relative;
+  z-index: 111111;
+}
+
+.aboutus .contant-section h1:before {
+  content: "03";
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  color: #eff0ee;
+  font-size: 100px;
+  font-weight: bold;
+  z-index: -111111111111;
+}
+
+.containt-about p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 100;
+}
+.containt-about p:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  background: url(../../assets/quote-l.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  left: 5px;
+}
+.containt-about p:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/quote-r.png) no-repeat;
+    width: 40px;
+    top: 27px;
+    height: 40px;
+    left: 175px;
+}
+.containt-about p {
+  font-size: 14px;
+}
+
+.aboutus .morebtn button {
+    background: #edce47;
+    border: none;
+    padding: 10px 40px;
+    border-radius: inherit;
+    color: #000;
+}
+
+.aboutus .morebtn button svg{
+ margin-left: 12px;
+}

@@ -1,0 +1,46 @@
+.footer {
+    background: #fff;
+}
+
+.footer .row.backgrnd-footer{
+
+    background-image: url(../../assets/bg-footer.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 125px;
+    background-position-x: center;
+}
+.footer .contact-info p{
+    padding: 0;
+    margin: 0;
+}
+.footer .contact-info h5{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.separate {
+    width: 15%;
+    position: relative;
+    left: 43%;
+    padding: 4px 0px;
+}
+.footer .linever {
+    border-bottom: 2px solid #9bb968;
+
+}
+.footer-menu,
+.footer-contact{
+    padding-top: 35px;
+}
+
+.footer-menu li{
+    list-style: none;
+}
+.social-media{
+    
+}
+ .social-media svg{
+     margin: 10px 25px;
+    font-size: 30px;
+}

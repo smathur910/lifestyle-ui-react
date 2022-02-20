@@ -1,0 +1,29 @@
+.navbar #navbarNavDropdown ul li {
+  padding: 0px 20px;
+}
+.navbar #navbarNavDropdown ul li a {
+  font-size: 14px;
+  color: #000;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-around;
+}
+
+.navbar #navbarNavDropdown .con-number {
+  font-size: 20px;
+  color: #84a748;
+  font-weight: 600;
+}
+
+.navbar #navbarNavDropdown .btn-primary.reqst-call {
+  border-radius: 0;
+  color: #000;
+  border: 2px solid #84a748;
+  background: #fff;
+  font-weight: 600;
+}
+.navbar #navbarNavDropdown .btn-primary.reqst-call:hover {
+  background: #84a748;
+  color: #fff;
+}
